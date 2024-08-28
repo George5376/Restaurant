@@ -1,0 +1,37 @@
+#bebidas {
+  padding: 10px;
+  background-color: #FFF8DC;
+}
+
+#bebidas h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #8B4513;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#bebidas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#bebidas li {
+  margin-bottom: 10px;
+}
+
+#bebidas h3 {
+  font-size: 1.2rem;
+  color: #8B4513;
+}
+
+#bebidas p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #A0522D;
+  text-align: right;
+}

@@ -1,0 +1,37 @@
+#pizzas {
+  padding: 10px;
+  background-color: #F5DEB3;
+}
+
+#pizzas h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #8B4513;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#pizzas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#pizzas li {
+  margin-bottom: 10px;
+}
+
+#pizzas h3 {
+  font-size: 1.2rem;
+  color: #8B4513;
+}
+
+#pizzas p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #A0522D;
+  text-align: right;
+}

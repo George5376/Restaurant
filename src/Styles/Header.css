@@ -1,0 +1,56 @@
+.App-header {
+  background-color: #8B4513;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.header-content h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.8rem;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+.menu {
+  margin-top: 10px;
+  width: 100%;
+  overflow-x: auto; /* Permite el desplazamiento horizontal */
+}
+
+.button-slider {
+  display: flex;
+  gap: 5px; /* Espaciado entre los botones */
+  padding: 10px; /* Espacio alrededor de los botones */
+}
+
+.button-slider a {
+  flex: none; /* Evita que los enlaces se expandan */
+}
+
+.menu button {
+  background-color: #A0522D;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.menu button:hover {
+  background-color: #D2691E;
+}

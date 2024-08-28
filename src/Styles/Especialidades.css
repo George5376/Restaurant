@@ -1,0 +1,37 @@
+#especialidades {
+  padding: 10px;
+  background-color: #F5F5DC;
+}
+
+#especialidades h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #8B4513;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#especialidades ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#especialidades li {
+  margin-bottom: 10px;
+}
+
+#especialidades h3 {
+  font-size: 1.2rem;
+  color: #8B4513;
+}
+
+#especialidades p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #A0522D;
+  text-align: right;
+}
