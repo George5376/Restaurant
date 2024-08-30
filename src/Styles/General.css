@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  h3 {
+    margin: 0; /* Elimina el margen por defecto del título */
+    color: #000000; /* Color en anaranjado vivo para el nombre de la especialidad */
+    font-size: 1.2em; /* Tamaño de fuente más grande */
+  }
+  .descripcion {
+    overflow: hidden; /* Oculta el texto si es muy largo */
+    white-space: nowrap; /* Evita el salto de línea */
+    text-overflow: ellipsis; /* Añade puntos suspensivos si hay desbordamiento */
+    max-height: 40px; /* Altura máxima para la descripción */
+    transition: max-height 0.3s ease; /* Transición suave para la altura */
+    margin: 10px 0; /* Espacio entre descripción y otros elementos */
+    margin-bottom: 35px; /* Espacio inferior adicional */
+    color: #000000; /* Texto de la descripción en gris claro */
+  }
+
+  .descripcion.expanded {
+    white-space: normal; /* Permite que el texto se envuelva */
+    max-height: none; /* Sin restricción de altura cuando está expandida */
+  }
+  .more-info {
+    color: #a8a8a8; /* Color de los puntos suspensivos en gris claro */
+  }
+  
+  .toggle-button {
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    color: #a8a8a8; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    padding: 0; /* Sin padding */
+    margin-top: 5px; /* Espacio entre el botón y el precio */
+    text-decoration: underline; /* Texto subrayado para indicar clickeable */
+  }
+  
+  .price {
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 10px; /* Espacio desde el fondo */
+    right: 15px; /* Espacio desde la derecha */
+    background-color: #b59c8f; /* Fondo en gris medio para la etiqueta de precio */
+    color: #f3f3f3; /* Texto en color claro para contrastar */
+    padding: 5px 10px; /* Espaciado dentro de la etiqueta */
+    border-radius: 15px; /* Bordes redondeados para la etiqueta de precio */
+    font-size: 1em; /* Tamaño de fuente del precio */
+  }  

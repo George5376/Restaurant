@@ -1,37 +1,44 @@
 #pizzas {
-  padding: 10px;
-  background-color: #F5DEB3;
+  padding: 20px;
+  background-color: #242e2c; 
 }
 
-#pizzas h2 {
-  font-family: 'Courier New', Courier, monospace;
-  color: #8B4513;
-  font-size: 1.5rem;
-  text-align: center;
+.pizza-title {
+  color: #ffffff; 
 }
 
-#pizzas ul {
-  list-style-type: none;
-  padding: 0;
+.pizza-item {
+  display: flex;
+  border: 1px solid #4e5a57; /* Borde en gris verdoso oscuro */
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #7c857d; /* Fondo en verde grisáceo */
+  cursor: pointer;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+  transition: transform 0.3s ease; /* Transición suave para efecto hover */
 }
 
-#pizzas li {
-  margin-bottom: 10px;
+.pizza-item:hover {
+  transform: scale(1.02); /* Efecto de agrandamiento suave al pasar el cursor */
 }
 
-#pizzas h3 {
-  font-size: 1.2rem;
-  color: #8B4513;
+.pizza-imagen {
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #4e5a57; /* Borde gris verdoso oscuro */
 }
 
-#pizzas p {
-  margin: 5px 0;
-  color: #555;
-  font-size: 0.9rem;
+.pizza-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
 }
 
-.price {
-  font-weight: bold;
-  color: #A0522D;
-  text-align: right;
-}
