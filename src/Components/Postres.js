@@ -9,7 +9,7 @@ function Postres() {
   const [expandedId, setExpandedId] = useState(null);
 
   useEffect(() => {
-    const postrsRef = ref(database, 'Postres/');
+    const postresRef = ref(database, 'Postres/');
 
     onValue(postresRef, (snapshot) => {
       const data = snapshot.val();

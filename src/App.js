@@ -1,9 +1,9 @@
 import Header from './Components/Header';
-import Carrusel from './Components/Carrusel';
 import Especialidades from './Components/Especialidades';
 import Pizzas from './Components/Pizzas';
 import Ofertas from './Components/Ofertas';
 import Bebidas from './Components/Bebidas';
+import Postres from './Components/Postres';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Pizzas />
         <Ofertas />
         <Bebidas />
+        <Postres />
       </main>
     </div>
   );
