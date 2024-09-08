@@ -31,7 +31,7 @@ function Contacto() {
 
   return (
     <section id="contacto">
-      <h2>Contáctanos</h2>
+      <h2 className='Title'>Contáctanos</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="nombre">Nombre:</label>
         <input type="text" id="nombre" value={nombre} onChange={(e) => setNombre(e.target.value)} required />
