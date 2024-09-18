@@ -1,0 +1,46 @@
+#contacto {
+  text-align: center;
+  padding: 20px;
+  background-color: #242e2c;
+}
+.Title{
+  color: #ffffff;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #7c857d;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #4e5a57;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+}
+
+button[type="submit"] {
+  background-color: #06a61c;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.02);
+  background-color: #7c857d;
+}

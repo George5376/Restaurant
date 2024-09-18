@@ -1,0 +1,41 @@
+#ofertas {
+  padding: 20px;
+  background-color: #e5d8cd; /* Fondo en beige pastel más claro */
+}
+
+
+.oferta-name{
+  color: #42353e;
+}
+.oferta-item {
+  display: flex; /* Alinea imagen y texto en fila */
+  border: 1px solid #ccc; /* Borde suave */
+  margin: 10px 0;
+  padding: 15px; /* Espaciado interno */
+  border-radius: 20px; /* Bordes redondeados */
+  background-color: #ffffff; /* Fondo blanco para cada especialidad */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el elemento */
+  flex-direction: row; /* Asegura que la dirección sea horizontal */
+  overflow: hidden; /* Evita el desbordamiento del contenido */
+  position: relative; /* Permite la posición absoluta del precio */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.oferta-imagen {
+  width: 100px; /* Ancho de la imagen */
+  height: auto; /* Mantiene la relación de aspecto */
+  margin-right: 15px; /* Espacio entre la imagen y la información */
+  border-radius: 10px; /* Bordes redondeados para la imagen */
+  object-fit: cover; /* Cubre el área de la imagen sin distorsión */
+  border: 2px solid #4e5a57; /* Borde gris verdoso oscuro para la imagen */
+}
+
+.oferta-info {
+  display: flex;
+  flex-direction: column; /* Disposición en columna */
+  justify-content: flex-start; /* Alinea los elementos al inicio */
+  flex-grow: 1; /* Permite que la información crezca */
+}
+
+
+

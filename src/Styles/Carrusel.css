@@ -1,0 +1,18 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: auto; /* Ajusta según la altura deseada */
+  overflow: hidden; /* Oculta las imágenes que no se están mostrando */
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease-in-out; /* Transición suave */
+}
+
+.carousel-item img {
+  width: 100%; /* O ajusta según el tamaño que desees */
+  height: auto;
+}

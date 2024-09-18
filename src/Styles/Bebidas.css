@@ -1,0 +1,65 @@
+#bebidas {
+  padding: 20px;
+  background-color: #242e2c;
+}
+
+.bebida-title {
+  color: #ffffff;
+  text-align: center; /* Centrar el título */
+}
+
+.bebida-item {
+  display: flex;
+  flex-direction: column; /* Cambiar a columna para centrar la información si no hay imagen */
+  border: 1px solid #4e5a57;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #7c857d;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  align-items: center; /* Centrar contenido horizontalmente */
+}
+
+.bebida-item:hover {
+  transform: scale(1.02);
+}
+
+.bebida-imagen {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px; /* Espacio inferior en lugar de margen derecho */
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #4e5a57;
+}
+
+.bebida-info {
+  text-align: center; /* Centrar texto */
+  flex-grow: 1;
+}
+
+.bebida-name {
+  font-size: 1.5em; /* Aumentar el tamaño del nombre de la bebida */
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.descripcion-bebidas {
+  font-size: 1em;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+  text-align: justify; /* Alinea el texto a ambos lados */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos al final si el texto se corta */
+  white-space: normal; /* Permite que el texto se divida en varias líneas */
+  overflow: hidden; /* Oculta cualquier desbordamiento de texto */
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+}

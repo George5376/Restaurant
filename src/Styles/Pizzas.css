@@ -1,0 +1,44 @@
+#pizzas {
+  padding: 20px;
+  background-color: #242e2c; 
+}
+
+.pizza-title {
+  color: #ffffff; 
+}
+
+.pizza-item {
+  display: flex;
+  border: 1px solid #4e5a57; /* Borde en gris verdoso oscuro */
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #7c857d; /* Fondo en verde grisáceo */
+  cursor: pointer;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+  transition: transform 0.3s ease; /* Transición suave para efecto hover */
+}
+
+.pizza-item:hover {
+  transform: scale(1.02); /* Efecto de agrandamiento suave al pasar el cursor */
+}
+
+.pizza-imagen {
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #4e5a57; /* Borde gris verdoso oscuro */
+}
+
+.pizza-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
