@@ -49,7 +49,7 @@ function Bebidas() {
                 )}
                 {bebida.descripcion && bebida.descripcion.length > 100 && (
                   <button className="toggle-button" onClick={() => toggleDescription(bebida.id)}>
-                    {expandedId === bebida.id ? 'Leer menos' : 'Leer más'}
+                    {expandedId === bebida.id ? 'Leer menos ' : 'Leer más '}
                   </button>
                 )}
                 <span className="price">${bebida.precio}</span>
@@ -57,7 +57,7 @@ function Bebidas() {
             </li>
           ))
         ) : (
-          <li>No hay bebidas disponibles en este momento.</li>
+          <li>No hay bebidas disponibles en este momento intente mas tarde.</li>
         )}
       </ul>
     </section>

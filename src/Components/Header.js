@@ -1,7 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../Styles/Header.css';
 
 const Header = () => {
+  useEffect(() => {
+    // Cargar el script de Google Analytics solo una vez
+    const gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-F4LZYL81RN';
+    document.head.appendChild(gtagScript);
+
+    gtagScript.onload = () => {
+      // Configuración de Google Analytics
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-F4LZYL81RN');
+    };
+  }, []);
+
   return (
     <header className="app-header">
       <div className="header-content">
